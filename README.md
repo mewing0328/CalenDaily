@@ -2,7 +2,10 @@
 Application: Color coordinated daily planner 
 
 
-[Day.js](https://day.js.org/en/) 
+Credits
+[jQuery](https://jquery.com/): Several tutorials for jQuery methods
+[w3schools](https://www.w3schools.com/): Several tutorials for JavaScript tutorials
+[Day.js](https://day.js.org/en/): Several how to use tutorials for Day.js in js file
 
 
 -------------------------------------------------------------------------------------------------

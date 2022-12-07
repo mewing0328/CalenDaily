@@ -1,12 +1,6 @@
-/* 
-DONE: Wrap all code that interacts with the DOM in a call to jQuery to ensure that
-the code isn't run until the browser has finished rendering all the elements
-in the html.
-*/
-  
   var currentHr = dayjs().hour(); // gets current hour
 
-  $(document).ready(function () {
+  $(document).ready(function () { //code that interacts with the DOM in a call to jQuery to ensure that the code isn't run until the browser has finished rendering all the elements in the html.
     console.log("Ready!");
 
     //DONE: Add code to display the current date in the header of the page.
@@ -39,16 +33,8 @@ in the html.
       };
     });
 
-    /*
-    TODO: Add code to get any user input that was saved in localStorage and set
-    the values of the corresponding textarea elements. HINT: How can the id
-    attribute of each time-block be used to do this?
 
-    Acceptance Criteria: WHEN I click into a timeblock THEN I can enter an event
-    */
-
-
- /* 
+    /* 
     TODO: Add a listener for click events on the save button. This code should
     use the id in the containing time-block as a key to save the user input in
     local storage. HINT: What does `this` reference in the click listener
@@ -59,6 +45,35 @@ in the html.
     Acceptance Criteria: WHEN I click the save button for that timeblock THEN the text for that event is saved in local storage
     */
 
+    $('.saveBtn').click(function (e) { 
+      e.preventDefault();
+      var btnHrClicked = parseInt($(this).attr('id')); //Local Storage KEY = get the value of the id of the button clicked 
+      console.log(btnHrClicked);
+
+      var inputSaved = ($(this).siblings('.description').val()); //Local Storage VALUE = get the value of input .attr('.description'))
+      console.log(typeof(inputSaved));
+      console.log(inputSaved);
+
+      localStorage.setItem(btnHrClicked, inputSaved);
+    });
+
+
+
+
+
+
+
+    /*
+    TODO: Add code to get any user input that was saved in localStorage and set
+    the values of the corresponding textarea elements. HINT: How can the id
+    attribute of each time-block be used to do this?
+
+    Acceptance Criteria: WHEN I click into a timeblock THEN I can enter an event
+    */
+
+
+
+
 
     /* 
     ME TO DO: Add a for loop that loops through stored local storage and shows it on html. 
@@ -68,4 +83,6 @@ in the html.
     Acceptance Criteria: WHEN I refresh the page THEN the saved events persist
 
     */
+
+    /* ME TO DO: Only IF YOU HAVE TIME: Figure out a way to repeat adding the hour rows in js */
   });
