@@ -47,26 +47,76 @@
 
     $('.saveBtn').click(function (e) { 
       e.preventDefault();
+
+      // saveLastItem();
+      // function saveLastItem(){
+      //   var btnHrClicked = parseInt($(this).attr('id')); //Local Storage KEY = get the value of the id of the button clicked 
+      //   var inputSaved = ($(this).siblings('.description').val()); //Local Storage VALUE = get the value of input .attr('.description'))
+      //   console.log(btnHrClicked);
+
+      //   var userItem = {
+      //     hour: ($(this).attr('id')),
+      //     item: inputSaved,
+      //   };
+      //   localStorage.setItem(btnHrClicked, JSON.stringify(userItem));
+      // };
+
+      
       var btnHrClicked = parseInt($(this).attr('id')); //Local Storage KEY = get the value of the id of the button clicked 
       console.log(btnHrClicked);
 
       var inputSaved = ($(this).siblings('.description').val()); //Local Storage VALUE = get the value of input .attr('.description'))
       console.log(typeof(inputSaved));
-      console.log(inputSaved);
+      console.log(inputSaved); 
 
       localStorage.setItem(btnHrClicked, inputSaved); //save in local storage as an object
+      
+      // myFunction();
+      // function myFunction() {
+      //   var x = sessionStorage.getItem("9");
+      //   console.log(x)
+      //   document.getElementById("9").innerHTML = x;
+      // };
 
-      allStorage();
-      function allStorage (){
-        var values = [];
-          keys = Object.keys(localStorage),
-          i = keys.length;
+      // function getLastItem(){
+      //   var lastItem = JSON.parse(localStorage.getItem(btnHrClicked));
+      //   console.log(lastItem);
+      // }
 
-        while (i--) {
-          values.push(localStorage.getItem(keys[i]));
-        }
-        console.log(values);
+
+      /*
+      for (var i = 0; i < localStorage.length; i++) {
+        console.log(typeof(btnHrClicked));
+        console.log(inputSaved);
+        var getHr = (localStorage.key(i));
+        // var stringHr = stringify(getHr);
+
+        var getValue = localStorage.getItem(inputSaved(i));  
+        console.log(getHr);
+        console.log(getValue);
       };
+      */
+      
+      for(var i=0; i < localStorage.length; i++) {
+        var key = localStorage.key(i);
+        var value = localStorage[key];
+        console.log(key);
+        console.log(value);
+      }
+
+      // allStorage();
+      // function allStorage (){
+      //   var values = [];
+      //     keys = Object.keys(localStorage),
+      //     i = keys.length;
+
+      //   while (i--) {
+      //     values.push(localStorage.getItem(keys[i]));
+      //   }
+      //   console.log(values);
+      // };
+
+
 
 
 
