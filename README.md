@@ -6,8 +6,8 @@ Credits
 [jQuery](https://jquery.com/): Several tutorials for jQuery methods
 [w3schools](https://www.w3schools.com/): Several tutorials for JavaScript tutorials
 [Day.js](https://day.js.org/en/): Several how to use tutorials for Day.js in js file
-[stack overflow](https://stackoverflow.com/questions/40791207/setting-and-getting-localstorage-with-jquery): How to set to local storage.
-[folkstalk.com](https://www.folkstalk.com/2022/09/how-to-get-all-items-in-localstorage-with-code-examples.html#:~:text=Get%20Array%20From%20localStorage%20If,a%20string%20to%20an%20array.): How to get all local storage items
+[stack overflow - Set Local Storage](https://stackoverflow.com/questions/40791207/setting-and-getting-localstorage-with-jquery): How to set to local storage.
+[stack overflow - Get Local Storage](https://stackoverflow.com/questions/12949723/html5-localstorage-getting-key-from-value): A loop to get all local storage items.
 [pixabay.com](https://pixabay.com/) where I downloaded images for my images styling.
 -------------------------------------------------------------------------------------------------
 

@@ -97,12 +97,7 @@
       };
       */
       
-      for(var i=0; i < localStorage.length; i++) {
-        var key = localStorage.key(i);
-        var value = localStorage[key];
-        console.log(key);
-        console.log(value);
-      }
+
 
       // allStorage();
       // function allStorage (){
@@ -118,10 +113,9 @@
 
 
 
-
+      location.reload();
 
     });
-
 
 
 
@@ -151,3 +145,45 @@
 
     /* ME TO DO: Only IF YOU HAVE TIME: Figure out a way to repeat adding the hour rows in js */
   });
+
+  getAllStorage();
+  function getAllStorage() {
+    for(var i=0; i < localStorage.length; i++) {
+      var key = localStorage.key(i);
+      var value = localStorage[key];
+      // console.log(key);
+      // console.log(typeof(key));
+      // console.log(value);
+
+      // var hourArray = [9, 10, 11, 12, 13, 14, 15, 16, 17]
+      // var length = hourArray.length;
+
+      if(key === '9'){
+        $('.9').text(value);
+      };
+      if(key === '10'){
+        $('.10').text(value);
+      };
+      if(key === '11'){
+        $('.11').text(value);
+      };
+      if(key === '12'){
+        $('.12').text(value);
+      };
+      if(key === '13'){
+        $('.13').text(value);
+      };
+      if(key === '14'){
+        $('.14').text(value);
+      };
+      if(key === '15'){
+        $('.15').text(value);
+      };
+      if(key === '16'){
+        $('.16').text(value);
+      };
+      if(key === '17'){
+        $('.17').text(value);
+      };
+    };
+  };
