@@ -8,7 +8,7 @@ Credits
 [Day.js](https://day.js.org/en/): Several how to use tutorials for Day.js in js file
 [stack overflow](https://stackoverflow.com/questions/40791207/setting-and-getting-localstorage-with-jquery): How to set to local storage.
 [folkstalk.com](https://www.folkstalk.com/2022/09/how-to-get-all-items-in-localstorage-with-code-examples.html#:~:text=Get%20Array%20From%20localStorage%20If,a%20string%20to%20an%20array.): How to get all local storage items
-
+[pixabay.com](https://pixabay.com/) where I downloaded images for my images styling.
 -------------------------------------------------------------------------------------------------
 
 

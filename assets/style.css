@@ -3,6 +3,27 @@ body {
   font-size: 16px;
 }
 
+/* header::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: .3;
+  z-index: 0;
+} */
+
+header {
+  background-image: url(./images/cupFlower.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color:  #9cd4e0;
+  text-shadow: -1px 2px 0  black;
+}
+
 textarea {
   background: transparent;
   border: none;
@@ -28,6 +49,8 @@ textarea {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
+  font-size: 1rem;
+  padding: 2px;
 }
 
 .past {
@@ -36,12 +59,12 @@ textarea {
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: #ecb9b6;
   color: white;
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: #abe0ab;
   color: white;
 }
 
@@ -49,7 +72,8 @@ textarea {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06aed5;
+  border-color: #7a7878;
+  background-color: #6acde4;
   color: white;
 }
 
