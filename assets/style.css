@@ -3,26 +3,37 @@ body {
   font-size: 16px;
 }
 
-/* header::after {
-  content: '';
-  display: block;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: .3;
-  z-index: 0;
-} */
-
 header {
+  position: relative;
+  color:  #0a0c0c;
   background-image: url(./images/cupFlower.jpg);
   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  color:  #0dc6f0;
-  text-shadow: -1px 3px 0  rgb(43, 40, 40);
+  opacity: 0.9;
 }
+
+
+.transbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+  background-color: #f7e0f5;
+  border: 1px solid black;
+  opacity: 0.8;
+}
+
+#title{
+  color: #17758a;
+  text-shadow: -5px 4px 0  rgb(182, 186, 187);
+}
+
+.transbox h1 {
+  margin: 3%;
+  font-weight: bold;
+  color: rgb(212, 110, 132);
+}
+
+
 
 .card{
   margin-bottom: 16px;
