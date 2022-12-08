@@ -8,12 +8,13 @@ Application: Color coordinated daily planner
 
 
 ##Credits
-[jQuery](https://jquery.com/): Several tutorials for jQuery methods
-[w3schools](https://www.w3schools.com/): Several tutorials for JavaScript tutorials
-[Day.js](https://day.js.org/en/): Several how to use tutorials for Day.js in js file
-[stack overflow - Set Local Storage](https://stackoverflow.com/questions/40791207/setting-and-getting-localstorage-with-jquery): How to set to local storage.
-[stack overflow - Get Local Storage](https://stackoverflow.com/questions/12949723/html5-localstorage-getting-key-from-value): A loop to get all local storage items.
-[pixabay.com](https://pixabay.com/) where I downloaded images for my images styling.
+
+* [jQuery](https://jquery.com/): Several tutorials for jQuery methods
+* [w3schools](https://www.w3schools.com/): Several tutorials for JavaScript tutorials
+* [Day.js](https://day.js.org/en/): Several how to use tutorials for Day.js in js file
+* [stack overflow - Set Local Storage](https://stackoverflow.com/questions/40791207/setting-and-getting-localstorage-with-jquery): How to set to local storage.
+* [stack overflow - Get Local Storage](https://stackoverflow.com/questions/12949723/html5-localstorage-getting-key-from-value): A loop to get all local storage items.
+* [pixabay.com](https://pixabay.com/) where I downloaded images for my images styling.
 -------------------------------------------------------------------------------------------------
 
 
