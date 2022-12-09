@@ -26,11 +26,12 @@
     <header class="p-5 mb-4 border-5 border-bottom border-dark text-center">
       <div class="transbox">
         <h1 class="display-1" id="title">CalenDaily</h1>
-        <h1 class="display-6">A simple calendar app for scheduling your work day</h1>
+        <h1 class="display-6">A simple calendar app for scheduling your work day</h1>     
         <p class="display-6" id="currentDay" class="lead"></p>
+        <button type="button" class="btn btn-light btn-lg clearAll">Clear all tasks</button>
       </div>  
     </header>
-    <div class="card container-lg px-5">
+
 
 <!-- UPDATED html below: 
     -- Added additional below to get to 5pm and changed id accordingly 
@@ -38,7 +39,7 @@
   
  Acceptance Criteria: WHEN I scroll down THEN I am presented with timeblocks for standard business hours
 -->
-
+<div class="card container-lg px-5">
       <div id="9" class="row time-block">
         <div class="col-2 col-md-1 hour text-center py-3">9AM</div>
         <textarea class="col-8 col-md-10 description 9" rows="3"> </textarea>
@@ -121,4 +122,5 @@
 
     <script src="./assets/script.js"></script>
   </body>
+
 </html>

@@ -1,4 +1,9 @@
 var currentHr = dayjs().hour(); // gets current hour
+$('.clearAll').click(function (e) {
+  e.preventDefault();
+  localStorage.clear();
+  location.reload();
+});
 
 $(document).ready(function () { //code that interacts with the DOM in a call to jQuery to ensure that the code isn't run until the browser has finished rendering all the elements in the html.
   console.log("Ready!");

@@ -32,10 +32,26 @@ THEN the saved events persist
 ### GIFS
 #### CalenDaily Demo Below: Adding items, deleting items, and colors changing dependent on current hour
 
+#### CalenDaily Demo Below:  
+    For this GIF demo, I demonstrate the following:
+    - Save buttons are functional.
+    - Text area is editable.
+    - End-user can save their to dos.
+    - The application automatically reloads.
+    - After reload, objects in the local storage are displayed on the browser.
+    - Alerts when to dos items are successfully saved in the local storage.
+    - The current date is displayed.
+    - The hours are colored depending on whether the hour was in the past, is in the present, or is in the future.
+    - The local storage clears an object when user deletes and saves the hour row.
+    - The user can clear all tasks in local storage by clicking the clear all tasks button.
+
+<img src=./assets/images/demo.gif style="width:40rem">
+<br></br>
 <br></br>
 
+
 ### CalenDaily Screenshots
-<img src=./assets/images/screenshot.jpg style="width:30rem">
+<img src=./assets/images/screenshot.jpg style="width:40rem">
 
 ## Credit: References and Tutorials Utilized
 * [jQuery](https://jquery.com/): Several tutorials for jQuery methods
