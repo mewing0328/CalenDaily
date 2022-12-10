@@ -3,24 +3,24 @@ Application: Color coordinated daily planner
 <br></br>
 
 ## Description
+This application provides an end-user with the ability to add taks to a daily schedule. The user can save each task by hour and when the page is reloaded, the tasks stored in local storage are displayed on the application.
 
 ### Usage
+An application for organizing an end-user's day tasks for standard business hours of 9AM - 5PM.
 
 ### Tasks Completed 
 ```
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
+HTML & CSS:
+* Added additional html elements and edited starter code. 
+* Added and revised some css selectors.
+
+JavaScript:
+* Displayed the current day at the top of the calendar
+* Presented timeblocks for standard business hours for the user to utilize
+* Color coded each timeblock to indicate whether it is in the past, present, or future
+* Provided capability for user to click on timeblocks and enter an event
+* Activated event listeners to each timeblock save buttons in order to save in local storage
+* Structured order of code so when page is refreshed in the code or manually by the end user, the saved events persist on the application within their designated timeblock
 ```
 
 ## My Links
@@ -30,7 +30,9 @@ THEN the saved events persist
 
 ## Demonstration
 ### GIFS
-#### CalenDaily Demo Below: Adding items, deleting items, and colors changing dependent on current hour
+#### CalenDaily Demo Below: 
+Demo of adding items, deleting items, and colors changing dependent on current hour.
+Demo of functionality of buttons for saving and clearing all tasks.
 
 #### CalenDaily Demo Below:  
     For this GIF demo, I demonstrate the following:
