@@ -1,26 +1,26 @@
 # CalenDaily
-Application: Color coordinated daily planner 
+Application: Color-coordinated daily planner 
 <br></br>
 
 ## Description
-This application provides an end-user with the ability to add taks to a daily schedule. The user can save each task by hour and when the page is reloaded, the tasks stored in local storage are displayed on the application.
+This application provides an end-user with the ability to add tasks to a daily schedule. The user can save each task by the hour and when the page is reloaded, the tasks stored in local storage are displayed on the application.
 
 ### Usage
-An application for organizing an end-user's day tasks for standard business hours of 9AM - 5PM.
+An application for organizing an end-user's day tasks for standard business hours of 9 AM - 5 PM.
 
 ### Tasks Completed 
 ```
 HTML & CSS:
-* Added additional html elements and edited starter code. 
-* Added and revised some css selectors.
+* Added additional HTML elements and edited starter code. 
+* Added and revised some CSS selectors.
 
 JavaScript:
-* Displayed the current day at the top of the calendar
-* Presented timeblocks for standard business hours for the user to utilize
-* Color coded each timeblock to indicate whether it is in the past, present, or future
-* Provided capability for user to click on timeblocks and enter an event
-* Activated event listeners to each timeblock save buttons in order to save in local storage
-* Structured order of code so when page is refreshed in the code or manually by the end user, the saved events persist on the application within their designated timeblock
+* Displayed the current day at the top of the calendar.
+* Presented time blocks for standard business hours for the user to utilize.
+* Color-coded each time block to indicate whether it is in the past, present, or future.
+* Provided capability for the user to click on time blocks and enter an event.
+* Activated event listeners to each time block save buttons to save in local storage.
+* Structured order of code so when the page is refreshed in the code or manually by the end user, the saved events persist on the application within their designated time block.
 ```
 
 ## My Links
@@ -31,20 +31,20 @@ JavaScript:
 ## Demonstration
 ### GIFS
 #### CalenDaily Demo Below: 
-Demo of adding items, deleting items, and colors changing dependent on current hour.
-Demo of functionality of buttons for saving and clearing all tasks.
+Demo of adding items, deleting items, and colors changing depending on the current hour.
+Demo of the functionality of buttons for saving and clearing all tasks.
 
 #### CalenDaily Demo Below:  
     For this GIF demo, I demonstrate the following:
     - Save buttons are functional.
     - Text area is editable.
-    - End-user can save their to dos.
+    - End-user can save tasks.
     - The application automatically reloads.
-    - After reload, objects in the local storage are displayed on the browser.
+    - After reloading, objects in the local storage are displayed on the browser.
     - Alerts when to dos items are successfully saved in the local storage.
     - The current date is displayed.
     - The hours are colored depending on whether the hour was in the past, is in the present, or is in the future.
-    - The local storage clears an object when user deletes and saves the hour row.
+    - The local storage clears an object when the user deletes and saves the hour row.
     - The user can clear all tasks in local storage by clicking the clear all tasks button.
 
 <img src=./assets/images/demo.gif style="width:40rem">
